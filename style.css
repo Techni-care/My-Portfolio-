@@ -1,0 +1,321 @@
+*{margin:0; padding:0;}
+
+body {
+        
+        font-family: tahoma, Arial;
+        font-weight: 200;
+        font-size: large;
+        background-color: rgb(231, 240, 240);
+}
+
+@keyframes ok{
+        0% {color: palegreen;}
+        10% {color: rgb(23, 143, 23);}
+        20% {color: rgb(3, 26, 3);}
+        30% {color: rgb(31, 144, 250);}
+        40% {color: rgb(13, 5, 48);}
+        50% {color: rgb(253, 113, 89);}
+        60% {color: rgb(78, 22, 4);}
+        70% {color: rgb(219, 23, 170);}
+        80% {color: rgb(59, 44, 3);}
+        90% {color: rgb(192, 42, 42);}
+        100% {color: rgb(12, 177, 189);}
+}
+
+
+.yes {
+  position:absolute;  top:10px; left:100px; font-weight: 800; font-family: Verdana; font-size:xx-large; line-height: 1.8em; letter-spacing: 2px; animation-name: ok; animation-duration: 10s; animation-iteration-count: infinite;
+}
+
+@keyframes tone {
+        50% {color:green;}
+        100% {color:indigo;}
+}
+
+
+.hello {
+        animation-name:tone; animation-duration:5s; animation-iteration-count: infinite;
+}
+
+.Name{
+        color: rgb(24, 139, 8);
+}
+
+
+html {scroll-behavior: smooth;}
+
+.Name:hover {
+        color:rgb(3, 102, 94);
+}
+
+.work {width:100%; margin-top: 20px;
+}
+
+.work li {display:inline-block; list-style: none; padding-right:70px; font-size:20px; font-weight: 700;}
+
+
+.work ul {float:right;}
+
+.work a {text-decoration: none; color:rgb(88, 18, 18);}
+
+.work a:hover {color:rgb(21, 240, 75);}
+
+.intro {
+         padding:100px;
+         float:left;
+         line-height: 2.0em;
+         margin-top: -550px;
+}
+
+.intro h1{
+        padding-bottom:40px;
+        font-size: 45px;
+}
+
+.intro h2{padding-bottom:40px}
+
+
+.buttn {margin-top:50px; width:100px; height:50px; background-color: rgb(253, 102, 15); border-radius: 15px; color:wheat; font-weight: 700; }
+
+.buttn:hover{
+        background-color: limegreen;
+}
+
+.mypic{
+        width:590px; height:auto; mix-blend-mode: multiply; float:right; margin-left:20px;} 
+
+        .mypic2 {
+                width:400px; height:290px; float:right; margin-top:290px;
+        }
+
+
+.abt {
+        padding-left:85px; float:left; font-weight: 1000; line-height:2.0em; font-size:20px; font-family: Geneva, Tahoma, sans-serif; 
+}
+
+.abt .about  {
+        padding-bottom: 88px; color: rgb(55, 17, 80); text-underline-position: below;  
+}
+
+.about3 {
+        color: rgb(42, 4, 78) ; font-size: 25px;
+}
+
+.skill {
+        text-align: center; padding-left: 88px; margin-top: 100px;  
+}
+
+.skill2 {
+        margin-bottom: 50px; color: rgb(150, 26, 10);
+}
+
+.skills4 {
+        font-size: 25px; font-weight: 700; line-height: 2.0em; font-stretch: extra-expanded; margin-bottom: 20px;
+}
+
+
+
+.skillscontainer{
+        row-gap: 20px;
+        margin-left:100px;
+        width: 80%;
+      }
+
+      .skillssubtitle{
+        margin-bottom: 500px;
+      }
+      .skillstext{
+        margin-bottom: 500px;
+      }
+
+      .skillsdata{
+        display: flex; justify-content: space-between;
+        align-items: center;
+        position: relative;
+        font-weight: 500;
+        padding: .5rem 1rem;
+        margin-bottom: 70px;
+        border-radius: .5rem;
+        box-shadow: 0 4px 25px rgba(14,36,49,.15);
+      }
+      .skillsicon{
+        font-size: 2rem;
+        margin-right: var(--mb-2);
+        color: teal;
+      }
+      .skillsnames{
+        display: flex;
+        align-items: center;
+      }
+
+      .skillsname{
+              margin-left: 5px;
+      }
+
+      .skillsbar{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: teal;
+        height: .25rem;
+        border-radius: .5rem;
+        z-index: var(--z-back);
+      }
+
+      .skillshtml{
+        width: 90%;
+      }
+      .skillscss{
+        width: 70%;
+      }
+      .skillsjs{
+        width: 55%;
+      }
+      .skillsgraphic{
+        width: 80%;
+      }
+
+      .skillsvideo {
+              width:80%;
+      }
+
+      .skillswork {
+        width:95%;
+}
+
+      .skillsimg{
+        border-radius: .5rem;
+      }
+      
+.contact1 {
+        padding-left: 100px; float:left; padding-top: 40px; margin-top: -55px;
+}
+
+.contactimage{
+        float:right;
+        mix-blend-mode: multiply; 
+
+}
+
+.imagee {
+        width:590px; height:auto; padding-left:120px;
+}
+
+.hire {
+        margin-bottom: 50px; color: rgba(4, 133, 4, 0.788); font-weight: 1000;
+        font-size: 29px;
+}
+
+.hire2 {
+        margin-bottom: 50px; font-size: 28px; font-weight:normal;
+}
+
+.contact2 {
+        display:block;
+}
+
+.in {
+ font-size: 28px;
+}
+
+.in2 {
+        font-size: 28px;
+}
+        
+
+.cont {
+        width:80%;
+        border: solid green;
+        border-radius: 10px;
+        height:40px;
+        font-size: 15px;
+        margin-bottom: 10px;
+}
+
+.click {
+        font-size: 20px;
+        color: wheat;
+        background-color: rgb(64, 3, 104);
+        width:29%;
+        height: 50px;
+        border: solid 1px;
+        border-radius: 10px;
+
+}
+
+
+
+.click:hover {
+        background-color: rgb(3, 150, 3);
+}
+
+footer .almost {
+         background-color: teal;
+         color: wheat;
+         text-align: center;
+        height: auto;
+}
+
+.about10 { color: rgb(12, 109, 12); font-size: 50px;}
+
+
+
+@media (max-width:760px) { body { max-width: 100%; margin:auto; overflow-x: hidden;}  .yes{padding-left:5px; font-size: 40px;}
+.work {display:none;} .mypic {margin-right:-70px;}
+
+.intro {
+        width: 100%; margin-left:-70px; margin-top:-140px; 
+}
+
+.mypic2 {display: none;}
+
+.about10 {margin-top:-40px; width: 100%; margin-left:40px; color:darkgreen;}
+
+.about2 {width:100%; margin-left: -70px; margin-top: -40px;}
+
+.skill {margin-top: 40px; margin-left: -70px;}
+
+.skill2 {margin-bottom: 20px;}
+
+.skills4 {margin-bottom: 50px;}
+
+.skillscontainer {margin-left: 50px;
+        
+}
+
+.imagee {margin-top:-150px; margin-right: -40px;}
+
+.contact1 {margin-top :-80px; margin-left: -70px;}
+}
+
+
+
+@media (max-width:480px) { body{max-width: 100%; margin:auto; overflow-x: hidden;}  .text-align:center; font-size: 40px;}
+.work {display:none;} .mypic {margin-right:-100px;}
+
+.intro {
+        width: 100%; margin-left:-70px; margin-top:-140px; 
+}
+
+.mypic2 {display: none;}
+
+.about10 {margin-top:-40px; width: 100%; color:darkgreen; margin-left:10px;}
+
+.about2 {width:100%; margin-left: -70px; margin-top: -40px;}
+
+.skill {margin-top: 40px; margin-left: -70px;}
+
+.skill2 {margin-bottom: 20px;}
+
+.skills4 {margin-bottom: 50px;}
+
+.skillscontainer {margin-left: 25px;
+        
+}
+
+.imagee {margin-top:-150px; margin-right: -100px;}
+
+.contact1 {margin-top :-80px; margin-left: -70px;}
+
+.almost {width: 100%;}
+}
