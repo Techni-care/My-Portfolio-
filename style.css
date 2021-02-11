@@ -24,7 +24,7 @@ body {
 
 
 .yes {
-  position:absolute;  top:10px; left:100px; font-weight: 800; font-family: Verdana; font-size:xx-large; line-height: 1.8em; letter-spacing: 2px; animation-name: ok; animation-duration: 10s; animation-iteration-count: infinite;
+  position:absolute;  top:10px; left:50px; font-weight: 800; font-family: Verdana; font-size:xx-large; line-height: 1.8em; letter-spacing: 2px; animation-name: ok; animation-duration: 10s; animation-iteration-count: infinite;
 }
 
 @keyframes tone {
@@ -290,7 +290,7 @@ footer .almost {
 
 
 
-@media (max-width:480px) { body{max-width: 100%; margin:auto; overflow-x: hidden;}  .text-align:center; font-size: 40px;}
+@media (max-width:480px) { body{max-width: 100%; margin:auto; overflow-x: hidden;}  
 .work {display:none;} .mypic {margin-right:-100px;}
 
 .intro {
