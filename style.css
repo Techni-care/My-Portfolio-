@@ -236,7 +236,7 @@ html {scroll-behavior: smooth;}
         font-size: 20px;
         color: wheat;
         background-color: rgb(64, 3, 104);
-        width:29%;
+        width:40%;
         height: 50px;
         border: solid 1px;
         border-radius: 10px;
@@ -253,7 +253,7 @@ footer .almost {
          background-color: teal;
          color: wheat;
          text-align: center;
-        height: auto;
+      
 }
 
 .about10 { color: rgb(12, 109, 12); font-size: 50px;}
@@ -317,5 +317,5 @@ footer .almost {
 
 .contact1 {margin-top :-80px; margin-left: -70px;}
 
-.almost {width: 100%;}
+
 }
