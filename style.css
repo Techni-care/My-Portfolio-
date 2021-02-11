@@ -239,7 +239,8 @@ html {scroll-behavior: smooth;}
         width:40%;
         height: 50px;
         border: solid 1px;
-        border-radius: 10px;
+        border-radius: 10px; margin-bottom: 20px;
+
 
 }
 
