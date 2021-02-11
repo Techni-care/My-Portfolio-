@@ -25,10 +25,6 @@ sr.reveal('.skillsimg',{delay:250});
  
 
 
-//sr.reveal('.contact1',{interval: 200}); 
-sr.reveal('.cont',{interval: 500}); 
-sr.reveal('.click',{interval: 470}); 
-sr.reveal('.almost',{interval: 100}); 
 
 
 
